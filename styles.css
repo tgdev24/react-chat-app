@@ -1,0 +1,46 @@
+.m-author{
+	font-family: -apple-system, system-ui, BlinkMacSystemFont;
+	color: #3399ff;
+	font-size: 24px;
+	padding-bottom: 8px;
+}
+
+.m-text{
+	font-family: -apple-system, system-ui, BlinkMacSystemFont;
+	color: white;
+	background-color: #3399ff;
+	border-radius: 15px;
+	border-style: hidden;
+	font-size: 36px;
+	display: inline;
+	padding: 8px;
+}
+
+.msg{
+	list-style-type: none;
+	margin-bottom: 25px;
+}
+
+#header{
+	font-family: -apple-system, system-ui, BlinkMacSystemFont;
+	background-color: #3399ff;
+	color: white;
+	font-size: 36px;
+	text-align: center;
+	padding: 20px;
+}
+
+#typedmsg{
+	border-style: none;
+	width: 100%;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	font-size: 36px;
+	background-color: #e6e6e6;
+	text-indent: 15px;
+	margin-top: 10px;
+}
+
+#typedmsg::placeholder{
+	text-indent: 15px;
+}
